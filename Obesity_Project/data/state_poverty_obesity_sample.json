@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",                                                                              
+"features": [
+{ "type": "Feature", "properties": { "state": "Alabama", "obesity": "35.6", "poverty": "21.76" }, "geometry":{"type":"Point","coordinates":[32.318230, -86.902298]}}
+,
+{ "type": "Feature", "properties": { "state": "Alaska", "obesity": "29.8", "poverty": "13.34" }, "geometry":{"type":"Point","coordinates":[61.370716, -152.404419 ]}}
+,
+{ "type": "Feature", "properties": { "state": "Arizona", "obesity": "28.4", "poverty": "21.3" }, "geometry":{"type":"Point","coordinates":[33.729759, -111.431221]}}
+,
+{ "type": "Feature", "properties": { "state": "Arkansas", "obesity": "34.5", "poverty": "21.6" }, "geometry":{"type":"Point","coordinates":[34.969704, -92.373123]}}
+,
+{ "type": "Feature", "properties": { "state": "California", "obesity": "24.2", "poverty": "16.7" }, "geometry":{"type":"Point","coordinates": [36.116203, -119.681564]}}
+]
+}
