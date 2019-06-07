@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Events</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+</head>
+<body>
+    <h2>Highest Poverty Rates</h2>
+    <select id="selDataset" onchange="getData(this.value)">
+        <!-- <option value="dataset1">Pennington County</option>
+        <option value="dataset2">Jefferson County</option>
+        <option value="dataset3">East Carroll Parish</option>
+        <option value="dataset4">Todd County</option>
+        <option value="dataset5">Corson County</option>
+        <option value="dataset6">Mellette County</option>
+        <option value="dataset7">Holmes County</option>
+        <option value="dataset8">Wolfe County</option>
+        <option value="dataset9">Sumter County</option>
+        <option value="dataset10">Clay County</option> -->
+    </select>
+
+    <div id="pie"></div>
+
+    <!-- <script src="{{ url_for('static', filename='plot.js') }}"></script> -->
+    <script src="../static/plot.js"></script>
+
+</body>
+</html>
